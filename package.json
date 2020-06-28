@@ -1,0 +1,29 @@
+{
+  "name": "mutlu-kasap",
+  "version": "1.0.0",
+  "description": "Bu deneme projesidir",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mutlu": "echo Benim adım Mutlu Kasap",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "deneme",
+    "test"
+  ],
+  "author": "Mutlu Kasap",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.9.20",
+    "nodemailer": "^6.4.10",
+    "simple-is": "^0.2.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mutluksap/mutlu-kasap.git"
+  }
+}
